@@ -1,0 +1,2 @@
+#!/bin/bash
+compileall.compile_file(py_file, doraise=True)
