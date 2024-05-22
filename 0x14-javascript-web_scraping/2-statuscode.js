@@ -6,7 +6,6 @@ const url = process.argv[2];
 
 request(url, function (error, response) {
   if (error == null) {
-    
     console.log(`code: ${response.statusCode}`);
   }
 });
